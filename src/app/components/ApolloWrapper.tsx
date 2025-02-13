@@ -1,5 +1,4 @@
-"use client"; // This ensures this component runs only on the client-side
-
+"use client";
 import { ApolloProvider } from "@apollo/client";
 import client from "~/src/lib/apolloClient";
 

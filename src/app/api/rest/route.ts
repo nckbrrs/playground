@@ -8,7 +8,7 @@ const GET = async () => {
 		return new Response(JSON.stringify(res.rows), {
 			status: 200
 		});
-	} catch (error) {
+	} catch (error: any) {
 		return new Response(
 			JSON.stringify({ error: "Failed to connect to, or query, DB" }),
 			{

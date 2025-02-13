@@ -13,7 +13,7 @@ const UseContextExampleChild = function ({
 	const handleClick = useCallback(() => {
 		console.log("setting context color to ", color);
 		bgColorCtx.setColor(color);
-	}, []);
+	}, [color]);
 
 	return (
 		<button
